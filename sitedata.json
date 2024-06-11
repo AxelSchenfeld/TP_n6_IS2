@@ -1,0 +1,20 @@
+
+{
+        "bancos": {
+                "Nacion": {
+                "nombre": "Banco Nacion",
+                "saldo": 1960000,
+                "token": "tokenA"
+                },
+                "Santander": {
+                "nombre": "Santander",
+                "saldo": 1750000,
+                "token": "tokenB"
+                },
+                "Galicia": {
+                "nombre": "Galicia",
+                "saldo": 3500000,
+                "token": "tokenC"
+                }
+        }
+}
