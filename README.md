@@ -1,26 +1,29 @@
-Extractor de token para acceso API Servicios Banco XXX (versión 1.0)
+# Token Extractor for API Access to Banco XXX Services (version 1.0)
 
-Este programa permite extraer la clave de acceso API para utilizar los servicios del 
-Banco XXX.
+This program allows the extraction of the API access key to use Banco XXX services.
 
-El programa operará como un microservicio invocado mediante:
+## Usage
 
-        {path ejecutable}/getJason.pyc {path archivo JSON}/{nombre archivo JSON}.json
+The program operates as a microservice and can be invoked using the following command:
 
-ej.
-        ./getJason.pyc ./sitedata.json
+`{executable path}/getJason.pyc {JSON file path}/{JSON file name}.json`
 
-El token podrá recuperarse mediante el standard output de ejecución en el formato
+### Example
 
-       {1.0}XXXX-XXXX-XXXX-XXXX
+`./getJason.pyc ./sitedata.json`
 
-Para obtener un mensaje de ayuda detallado ejecutar
+The token will be retrieved via the standard output in the following format:
 
-       ./getJason.pyc -h
+`{1.0}XXXX-XXXX-XXXX-XXXX`
 
-Excepciones
+## Help
 
-Todas las condiciones de error del programa deben producir un mensaje de error bajo su control antes de
-terminar.
+To get a detailed help message, run:
+
+`./getJason.pyc -h`
+
+## Exceptions
+
+All error conditions will produce an appropriate error message before the program terminates.
 
 
